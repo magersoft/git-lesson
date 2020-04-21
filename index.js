@@ -14,3 +14,6 @@ const reich = new Reich('Adolf Hilter');
 reich.burningJude();
 
 console.log('Hi epta');
+
+//и тут пришел пайтон
+//print('Хуинт')
