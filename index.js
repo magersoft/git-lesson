@@ -12,3 +12,5 @@ class Reich {
 
 const reich = new Reich('Adolf Hilter');
 reich.burningJude();
+
+console.log('Hi epta');
