@@ -6,7 +6,7 @@ class Reich {
   }
 
   burningJude() {
-    console.log(this.fuhrer + ' burning one jude!!!!!!!!±!');
+    console.log(this.fuhrer + ' burning one jude!!!');
   }
 }
 
