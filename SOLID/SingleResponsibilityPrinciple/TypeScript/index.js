@@ -1,0 +1,15 @@
+"use strict";
+exports.__esModule = true;
+var News_1 = require("./News");
+var NewsView_1 = require("./NewsView");
+var Share_1 = require("./Share");
+var news = new News_1.News('new1', 'blabla');
+news.update('Раз два три четыре пять - ПИЗДА!');
+var view = new NewsView_1.NewsView(news);
+console.log(view.json());
+console.log(view.html());
+console.log(view.xml());
+var shared = new Share_1.Share(news);
+console.log('===================================');
+console.log(shared.magergram());
+console.log(shared.vk());
