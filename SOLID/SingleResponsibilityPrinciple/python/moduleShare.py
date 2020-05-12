@@ -1,7 +1,8 @@
-from SOLID.SingleResponsibilityPrinciple.python.News import News
+import moduleNews
+
 
 class Share:
-    news: News
+    news: moduleNews.News
 
     def __init__(self, news):
         self.news = news
